@@ -44,3 +44,22 @@ by [Michael Hartl](http://www.michaelhartl.com/).
   - Modifying built-in classes
 - A controller class
 - A user class
+
+##This application will be focusing on Chapters 5-6 the following:
+- Sit Navigation
+- Bootstrap and custom CSS
+- Partials
+- Sass and the asset pipeline
+  - The asset pipeline
+  - Asset directories
+  - Manifest files
+  - Preprocessor engines
+  - Efficiency in production
+- Layout links
+- Contact page
+- Rails routes
+- Using named routes
+- Layout link tests (Integration test)
+- User signup: A first step
+  - Users controller
+  - Signup URL
