@@ -7,7 +7,7 @@ by [Michael Hartl](http://www.michaelhartl.com/).
 
 [final product](https://yum-yum.herokuapp.com/)
 
-##This application will be focusing on Chapters 2-3 the following:
+##Focus points for Chapter 3:
   - [Github](github.com) (Still using github vs. bitbucket)
   - [Heroku](heroku.com)
   - Static pages
@@ -24,7 +24,7 @@ by [Michael Hartl](http://www.michaelhartl.com/).
     - Automating with Guard
     - Unix processes
 
-##This application will be focusing on Chapters 4-5 the following:
+##Focus points for Chapter 5:
 - Ruby Language as it is used in the rails framework
   - Strings and methods
   - Comments
@@ -45,8 +45,8 @@ by [Michael Hartl](http://www.michaelhartl.com/).
 - A controller class
 - A user class
 
-##This application will be focusing on Chapters 5-6 the following:
-- Sit Navigation
+##Focus points for Chapter 5:
+- Site Navigation
 - Bootstrap and custom CSS
 - Partials
 - Sass and the asset pipeline
@@ -63,3 +63,25 @@ by [Michael Hartl](http://www.michaelhartl.com/).
 - User signup: A first step
   - Users controller
   - Signup URL
+
+##Focus points for Chapter 6: Authentication
+  - User model
+  - DB Migrations
+  - The model file
+  - Creating user objects
+  - Finding user objects
+  - Updating user objects
+  - User validations
+    - Validity test's
+      - Presence
+      - Length
+      - Format
+      - REGEX
+      - Uniqueness
+  - Database indices
+  - Adding a secure password
+    - A hashed password
+    - User has a secure password
+    - Minimum password standards
+  - Creating and authenticating a user
+  
