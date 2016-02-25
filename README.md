@@ -84,4 +84,27 @@ by [Michael Hartl](http://www.michaelhartl.com/).
     - User has a secure password
     - Minimum password standards
   - Creating and authenticating a user
-  
+
+##Focus points for Chapter 7: Sign up
+  - Showing users
+  - Debug and rails environments
+  - A users resource
+  - Debugger
+  - A Gravatar image and a sidebar
+  - Signup form
+    - using form_for
+    - Signup firm HTML
+    - Unsuccessful signups
+    - A working form
+    - Strong parameters
+    - Signup error messages
+  - A test for invalid submission
+  - Successful signups
+  - The finished signup form
+  - The flash
+  - The first signup
+  - A test for valid submission
+  - Professional-grade deployment
+  - SSL in production
+  - Production webserver
+  - Ruby versions
