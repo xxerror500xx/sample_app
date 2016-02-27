@@ -18,6 +18,7 @@ group :development, :test do
   gem 'spring',      '1.1.3'
   # Allows easier troubleshooting of the DB http://localhost:3000/rails/db
   gem 'rails_db'
+  gem 'better_errors'
 end
 
 group :test do
