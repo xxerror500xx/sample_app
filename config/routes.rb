@@ -8,4 +8,5 @@ Rails.application.routes.draw do
 
   # Begin User Routing
   get 'signup' => 'users#new'
+  resources :users
 end
