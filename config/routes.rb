@@ -11,4 +11,10 @@ Rails.application.routes.draw do
   # Begin User Routing
   get 'signup' => 'users#new'
   resources :users
+
+  # Begin Session Routing
+  get 'login'  => 'sessions#new'
+  get 'login'  => 'sessions#create'
+  get 'logout' => 'sessions#destroy'
+
 end
