@@ -108,3 +108,25 @@ by [Michael Hartl](http://www.michaelhartl.com/).
   - SSL in production
   - Production webserver
   - Ruby versions
+
+  ##Focus points for Chapter 8: Login and Logout
+  - Sessions
+    - Sessions controller
+    - Login form
+    - Finding and authenticating a user
+    - Rendering with a flash message
+    - A flash test
+  - Logging in
+    - The log_in method
+    - Current user
+    - Changing the layout links
+    - Testing layout changes
+    - Login upon signup
+    - Logging out
+  - Remember me
+    - Remember token and digest
+    - Login with remembering
+    - Forgetting users
+    - Two subtle bugs
+    - "Remember me" checkbox
+    - Remember tests
