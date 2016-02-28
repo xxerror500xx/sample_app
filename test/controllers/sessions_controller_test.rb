@@ -4,16 +4,17 @@ class SessionsControllerTest < ActionController::TestCase
   test "should get new" do
     get :new
     assert_response :success
+    assert_select "title", "Log in | Ruby on Rails Tutorial Sample App"
   end
 
-  test "should get create" do
-    get :create
-    assert_response :success
-  end
+  #test "should get create" do
+  #  get :create
+  #  assert_response :success
+  #end
 
-  test "should get destroy" do
-    get :destroy
-    assert_response :success
-  end
+  #test "should get destroy" do
+  #  get :destroy
+  #  assert_response :success
+  #end
 
 end
