@@ -13,8 +13,8 @@ Rails.application.routes.draw do
   resources :users
 
   # Begin Session Routing
-  get 'login'  => 'sessions#new'
-  get 'login'  => 'sessions#create'
-  get 'logout' => 'sessions#destroy'
+  get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
 
 end
