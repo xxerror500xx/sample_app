@@ -130,3 +130,24 @@ by [Michael Hartl](http://www.michaelhartl.com/).
     - Two subtle bugs
     - "Remember me" checkbox
     - Remember tests
+  ##Focus points for Chapter 9: Updating, showing, and deleting users
+    - Updating users
+      * Edit form
+    - Unsuccessful edits
+    - Testing unsuccessful edits
+    - Successful edits (with TDD)
+    - Authorization
+    - Requiring logged-in users
+    - Requiring the right user
+    - Friendly forwarding
+    - Showing all users
+    - Users index
+    - Sample users
+    - Pagination
+    - Users index test
+    - Partial refactoring
+    - Deleting users
+    - Administrative users
+    - Revisiting strong parameters
+    - The destroy action
+    - User destroy tests
