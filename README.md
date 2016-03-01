@@ -109,7 +109,7 @@ by [Michael Hartl](http://www.michaelhartl.com/).
   - Production webserver
   - Ruby versions
 
-  ##Focus points for Chapter 8: Login and Logout
+##Focus points for Chapter 8: Login and Logout
   - Sessions
     - Sessions controller
     - Login form
@@ -130,7 +130,8 @@ by [Michael Hartl](http://www.michaelhartl.com/).
     - Two subtle bugs
     - "Remember me" checkbox
     - Remember tests
-  ##Focus points for Chapter 9: Updating, showing, and deleting users
+
+##Focus points for Chapter 9: Updating, showing, and deleting users
     - Updating users
       * Edit form
     - Unsuccessful edits
