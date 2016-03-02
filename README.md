@@ -8,21 +8,21 @@ by [Michael Hartl](http://www.michaelhartl.com/).
 [final product](https://yum-yum.herokuapp.com/)
 
 ##Focus points for Chapter 3:
-  - [Github](github.com) (Still using github vs. bitbucket)
-  - [Heroku](heroku.com)
-  - Static pages
-  - Generating with rails
-  - undoing rails generations
-  - Http (GET, POST, PATCH, DELETE)
-  - Testing and test_helpers
-  - Slightly dynamic pages
-  - ERB's
-  - More routing
-  - Advanced testing setup
-    - Minitest reporters (adds color to the test results)
-    - back trace silencer
-    - Automating with Guard
-    - Unix processes
+- [Github](github.com) (Still using github vs. bitbucket)
+- [Heroku](heroku.com)
+- Static pages
+- Generating with rails
+- undoing rails generations
+- Http (GET, POST, PATCH, DELETE)
+- Testing and test_helpers
+- Slightly dynamic pages
+- ERB's
+- More routing
+- Advanced testing setup
+  - Minitest reporters (adds color to the test results)
+  - back trace silencer
+  - Automating with Guard
+  - Unix processes
 
 ##Focus points for Chapter 5:
 - Ruby Language as it is used in the rails framework
@@ -65,90 +65,104 @@ by [Michael Hartl](http://www.michaelhartl.com/).
   - Signup URL
 
 ##Focus points for Chapter 6: Authentication
-  - User model
-  - DB Migrations
-  - The model file
-  - Creating user objects
-  - Finding user objects
-  - Updating user objects
-  - User validations
-    - Validity test's
-      - Presence
-      - Length
-      - Format
-      - REGEX
-      - Uniqueness
-  - Database indices
-  - Adding a secure password
-    - A hashed password
-    - User has a secure password
-    - Minimum password standards
-  - Creating and authenticating a user
+- User model
+- DB Migrations
+- The model file
+- Creating user objects
+- Finding user objects
+- Updating user objects
+- User validations
+  - Validity test's
+    - Presence
+    - Length
+    - Format
+    - REGEX
+    - Uniqueness
+- Database indices
+- Adding a secure password
+  - A hashed password
+  - User has a secure password
+  - Minimum password standards
+- Creating and authenticating a user
 
 ##Focus points for Chapter 7: Sign up
-  - Showing users
-  - Debug and rails environments
-  - A users resource
-  - Debugger
-  - A Gravatar image and a sidebar
-  - Signup form
-    - using form_for
-    - Signup firm HTML
-    - Unsuccessful signups
-    - A working form
-    - Strong parameters
-    - Signup error messages
-  - A test for invalid submission
-  - Successful signups
-  - The finished signup form
-  - The flash
-  - The first signup
-  - A test for valid submission
-  - Professional-grade deployment
-  - SSL in production
-  - Production webserver
-  - Ruby versions
+- Showing users
+- Debug and rails environments
+- A users resource
+- Debugger
+- A Gravatar image and a sidebar
+- Signup form
+  - using form_for
+  - Signup firm HTML
+  - Unsuccessful signups
+  - A working form
+  - Strong parameters
+  - Signup error messages
+- A test for invalid submission
+- Successful signups
+- The finished signup form
+- The flash
+- The first signup
+- A test for valid submission
+- Professional-grade deployment
+- SSL in production
+- Production webserver
+- Ruby versions
 
 ##Focus points for Chapter 8: Login and Logout
-  - Sessions
-    - Sessions controller
-    - Login form
-    - Finding and authenticating a user
-    - Rendering with a flash message
-    - A flash test
-  - Logging in
-    - The log_in method
-    - Current user
-    - Changing the layout links
-    - Testing layout changes
-    - Login upon signup
-    - Logging out
-  - Remember me
-    - Remember token and digest
-    - Login with remembering
-    - Forgetting users
-    - Two subtle bugs
-    - "Remember me" checkbox
-    - Remember tests
+- Sessions
+  - Sessions controller
+  - Login form
+  - Finding and authenticating a user
+  - Rendering with a flash message
+  - A flash test
+- Logging in
+  - The log_in method
+  - Current user
+  - Changing the layout links
+  - Testing layout changes
+  - Login upon signup
+  - Logging out
+- Remember me
+  - Remember token and digest
+  - Login with remembering
+  - Forgetting users
+  - Two subtle bugs
+  - "Remember me" checkbox
+  - Remember tests
 
 ##Focus points for Chapter 9: Updating, showing, and deleting users
-    - Updating users
-      * Edit form
-    - Unsuccessful edits
-    - Testing unsuccessful edits
-    - Successful edits (with TDD)
-    - Authorization
-    - Requiring logged-in users
-    - Requiring the right user
-    - Friendly forwarding
-    - Showing all users
-    - Users index
-    - Sample users
-    - Pagination
-    - Users index test
-    - Partial refactoring
-    - Deleting users
-    - Administrative users
-    - Revisiting strong parameters
-    - The destroy action
-    - User destroy tests
+- Updating users
+  - Edit form
+- Unsuccessful edits
+- Testing unsuccessful edits
+- Successful edits (with TDD)
+- Authorization
+- Requiring logged-in users
+- Requiring the right user
+- Friendly forwarding
+- Showing all users
+- Users index
+- Sample users
+- Pagination
+- Users index test
+- Partial refactoring
+- Deleting users
+- Administrative users
+- Revisiting strong parameters
+- The destroy action
+- User destroy tests
+
+##Focus points for Chapter 10: Account activation and password reset
+- Account activation
+  - Account activations resource
+  - Account activation mailer method
+  - Activating the account
+  - Activation test and refactoring
+- Password reset
+  - Password resets resource
+  - Password resets controller and form
+  - Password reset mailer method
+  - Resetting the password
+  - Password reset test
+- Email in production  
