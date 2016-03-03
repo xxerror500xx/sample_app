@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   resources :users
 
   # Begin Account activations
+  resources :account_activations, only: [:edit]
 
   # Begin Session
   get 'sessions/new'
